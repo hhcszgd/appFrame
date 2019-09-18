@@ -1,0 +1,6 @@
+framework module Pods_jianlei {
+  umbrella header "Pods-jianlei-umbrella.h"
+
+  export *
+  module * { export * }
+}

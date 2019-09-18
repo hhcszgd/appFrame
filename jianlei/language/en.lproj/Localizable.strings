@@ -1,0 +1,18 @@
+/* 
+  File.strings
+  YiLuMedia
+
+  Created by WY on 2019/82/27.
+  Copyright © 2018 WY. All rights reserved.
+*/
+"language_identifier" = "en";
+"title" = "english";
+"country_code" = "1b0";
+
+
+"tabbar_item1_title" = "home";
+"tabbar_item2_title" = "message";
+"tabbar_item3_title" = "mine";
+"tabbar_item4_title" = "ad";
+
+"profile_renzheng" = "";

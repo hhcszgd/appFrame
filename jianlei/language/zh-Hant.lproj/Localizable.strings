@@ -1,0 +1,698 @@
+/* 
+  File.strings
+  YiLuMedia
+
+  Created by WY on 2019/82/27.
+  Copyright © 2018 WY. All rights reserved.
+*/
+
+
+/**
+ 1应用级别
+ */
+
+"language_identifier" = "zh-Hant";
+"title" = "繁体";
+"country_code" = "110";
+
+
+/**
+ 2框架级别
+ */
+
+"refresh_pullingStr" = "拖動以刷新";
+"refresh_loosenStr" = "鬆開以刷新";
+"refresh_refreshingStr" = "刷新中";
+"refresh_successStr" = "刷新成功";
+"refresh_failureStr" = "刷新失敗";
+"refresh_networkErrorStr" = "網絡錯誤";
+
+"load_pullingStr" = "拖動以加載";
+"load_loosenStr" = "鬆開加載";
+"load_loadingStr" = "加載中";
+"load_successStr" = "加載成功";
+"load_failureStr" = "加載失敗";
+"load_networkErrorStr" = "網絡錯誤";
+"load_nomoreStr" = "沒有更多數據";
+
+"tabbar_item1_title" = "首頁";
+"tabbar_item2_title" = "消息";
+"tabbar_item3_title" = "我的";
+"tabbar_item4_title" = "廣告";
+
+
+/**
+ 3页面级别
+ */
+
+///01通用字符串///
+
+"cancel" = "取消";
+"sure" = "確定";
+"there_is_nothing_now"="暫無相關內容";
+///02页面提示语///
+
+"server_connect_failure" = "服務器連接失敗";
+"alert_password" = "密碼格式不對";
+"alert_select_protocal" = "請簽訂協議";
+"alert_networrk_error" = "請檢查網絡連接";
+"alert_register_phone_null" = "請先填寫手機號碼";
+"alert_register_phone_error" = "手機號碼不正確";
+"alert_get_phonoCode" = "請先確定國家區號";
+"network_error_try_again" = "網絡錯誤,請檢查網絡后重試";
+"server_data_type_error" = "服務器數據格式錯誤";
+"request_time_out" = "請求超時";
+"request_failure" = "請求失敗";
+"cancle_request" = "取消請求";
+"server_side_error" = "服務端錯誤";
+"server_side_error_try_again" = "服務端錯誤";
+"no_content" = "暫無內容";
+"no_search_content" = "找不到相關內容";
+"enter_screen_brandAndnum" = "請填寫店內r屏幕的品牌和數量";
+"parameter_error" = "參數錯誤";
+"location_enable" = "定位功能不可用";
+"location_enable_tips" = "請前往(設置->隱私->定位服務)\n開啟手機定位功能";
+"location_enable_whether_turn_on" = "暫無定位服務權限,是否授權?";
+"notification_enable_go_and_turn_on" = "通知不可用,請在設置中開啟";
+"operateFailure"="操作失敗";
+
+///03页面内容///
+
+//001首页
+"台" = "臺";
+"home_title" = "一路傳媒";
+"home_company_describe_title" = "公司簡介";
+"home_company_describe_content" = "        一路傳媒是主要從事各類公共場所LED屏深度建設和拓展的影視廣告媒體公司。\n        一路傳媒致力于提供國際一流標准的LED屏影視廣告傳播服務，爲國內外用戶提供優質的媒體內容，成爲全球用戶終身信賴的媒體資源，並努力使我們的用戶在我們的服務中真正獲得所期望的經濟效益和社會效益。";
+"home_installBussiness" = "安裝業務";
+"bussinessHistoy" = "業務歷史";
+"screenInstallNoNUll" = "暫無安裝屏幕信息";
+"bussinessHistoryNUll" = "暫無業務歷史";
+"installBussinessNUll" = "暫無完成的安裝業務";
+"bussinessSearchNull" = "暫無符合您搜索的店鋪";
+"enterBusinessKeyboard" = "請輸入店鋪關鍵信息搜索";
+//維護簽到
+"repair_sign" = "簽到";
+"repari_shop_contact" = "店鋪聯繫人";
+"repari_contact_mobile" = "聯繫電話";
+"repari_content" = "維護內容";
+"repari_normal_check" = "日常檢查";
+"repari_open_time" = "開機時間";
+"repari_close_time" = "關機時間";
+"repari_other_enter" = "如需其他備註請填寫";
+"repari_sure_sign" = "確認簽到";
+"repari_select_open_time_alter" = "請選擇開機時間";
+"repari_select_close_time_alter" = "請選擇關機時間";
+"repari_time_limit_alter" = "屏幕開機時間不得小於10小時";
+"repari_config_openAndcolose_time" = "調整開掛機時間";
+"repari_back" = "返回上一級獲取地址";
+"repari_sign_success" = "簽到成功";
+"repari_upLoadPicture" = "店鋪門臉及其他所需照片";
+"repari_*_alter" = "請完成所有標有*號的內容的填寫";
+
+//業務簽到
+"baifangShop" = "拜訪店鋪";
+"enter_shop_name" = "請輸入店鋪名稱";
+"unit_of_mirror" = "面";
+"minimum_consumption" = "最低消費";
+"enter_minimum_consumption" = "填寫最低消費";
+"minimum_consumption_unit" = "港幣";
+"enter_contact_mobile" = "填寫聯繫人電話(選填)";
+"enter_screen_brand" = "填寫屏幕品牌";
+"screen_brand_unit" = "臺";
+"enter_have_screen_num" = "填寫已有屏幕數量";
+"enter_ohter_info" = "如需其他備註請填寫";
+"self_run" = "自營";
+"leasing" = "租賃";
+"chain" = "連鎖";
+"no_have" = "無";
+"have" = "有";
+"shop_type" = "店鋪類型";
+"shop_isHave_screen" = "有無屏幕";
+//团队管理
+"team_manager" = "團隊管理";
+
+"team_name" = "團隊名稱";
+"team_type" = "團隊類型";
+"team_number" = "團隊人數";
+"team_member" = "團隊成員";
+"team_check_permission" = "簽到查看權限";
+"team_create_success_alter" = "團隊創建成功\n是否立即進行團隊管理?";
+"team_create_success_alter_cancle" = "暫不";
+"team_create_success_alter_sure" = "去管理";
+"team_detail" = "團隊詳情";
+"remove" = "移除";
+"add" = "添加";
+"search" = "搜索";
+"search_result" = "篩選結果";
+"team_create" = "創建團隊";
+"create" = "創建";
+"team_bussiness" = "業務";
+"team_reapire" = "維護";
+"team_name_placeholder" = "填寫團隊名稱 例：北京業務一組";
+"team_remove_member_alter" = "是否將已選中的\n%@位成員移除團隊";
+"team_remove_success" = "移除成功";
+"team_add_success" = "添加成功";
+"team_add_title" = "添加成員";
+"team_remove_title" = "移除成員";
+"team_select_remove_member" = "請選擇移除成員";
+"team_close_sign_permission_alter" = "您關閉了簽到產看權限，是否確認更改";
+"team_on_sign_permission_alter" = "您開啟了簽到產看權限，是否確認更改";
+//團隊詳情
+"team_detail" = "團隊詳情";
+"team_permission_no" = "暫無權限查看此模塊";
+"team_noPermission_of_manager" = "對方是管理員,您沒有權限修改";
+"team_set_manger" = "設置為負責人";
+"team_cancle_manager" = "取消負責人權限";
+"team_nomanager_noPermission" = "不是管理員 暫無權限查看此模塊";
+"team_save" = "保存";
+"team_change_name" = "團隊名稱修改";
+"team_enter_team_name" = "請輸入團隊名稱";
+"team_change_success" = "修改成功";
+//服務評價
+"service_evaluation" = "服務評價";
+"submit" = "提交";
+"close" = "關閉";
+"please_evaluate" = "請先評價";
+"submit_success" = "提交成功";
+"thank_you_support" = "感謝您對我們工作的支持";
+"continue_evaluate" = "繼續評價";
+"close_fail_alter" = "關閉失敗請重新關閉";
+"close_evaluate_viewTitle" = "確認關閉評價頁面?";
+"close_evaluate_viewmessage" = "未作出評價將在3天之後默認好評";
+
+//簽到數據
+"signData" = "簽到數據";
+"business" = "業務";
+"repaire" = "維護";
+"repeat_shop_num" = "重複店鋪數";
+"selct_team" = "選擇團隊";
+"chaoshiSign" = "超時簽到人數";
+"weidabiao" = "未達標人數";
+"weiqiandao" = "未簽到人數";
+"haoping" = "好評數";
+"chapinglv" = "差評率";
+"zhongping" = "中評數";
+"chaping" = "差評數";
+"zaotui" = "早退人數";
+"all_sign_member" = "總簽到數";
+"shop_repeat_sign" = "店鋪重複簽到數";
+"sign_repeat_propert" = "簽到重複率";
+"allBussiness" = "全部業務組";
+"allPari" = "全部維護組";
+"member_sign_data" = "人員簽到數據";
+"shop_sign_data" = "店鋪簽到數據";
+"shop_sign_num" = "店鋪簽到數";
+"pingfen_qingkuang" = "評分情況";
+"zongpingjia" = "總評價數";
+"year" = "年";
+"month" = "月";
+"day" = "日";
+
+//002消息设置
+"message_setting_title" = "消息設置";
+"whether_push_message" = "是否推送";
+////////////////////////////////////////////////////////////////////////////
+//003安装业务
+"businessHistoryType2" = "屏幕更換";
+"businessHistoryType3" = "屏幕拆除";
+"businessHistoryType4" = "新增屏幕";
+"businessHistoryType1" = "新店安裝";
+
+"installHistory" = "安裝歷史";
+
+
+"shopInfoType1" = "店鋪信息";
+"shopInfoType2" = "寫字樓信息";
+"shopInfoType3" = "住宅樓信息";
+//004店鋪信息
+"shopInfoNameOfShop" = "店鋪名稱";
+"shopInfoNameOfZhuZhai" = "住宅樓名稱";
+"shopInfoNameOfXieZi" = "寫字樓名稱";
+"shopInfo_install_address" = "安裝地址";
+"shopInfoArea_name" = "店鋪地址";
+"shopInfoAddress" = "";
+"shopInfocompany_name" = "物業公司";
+"shopInfoapply_name" = "法人代表";
+"shopInfoidentity_card_num" = "身份證號碼";
+"shopInfoapply_mobile" = "法人聯繫方式";
+"shopInfo_mobile" = "手機號碼";
+"shopInfocontacts_name" = "店鋪聯繫人";
+"shopInfocontacts_mobile" = "聯繫人手機號碼";
+"shopInfoacreage" = "店鋪面積";
+"shopInfoacreageOfUnit" = "平米";
+"enter_shop_acreage" = "填寫店鋪面積";
+"shopInfomirror_account" = "鏡面數量";
+"enter_shop_mirror_count" = "填寫鏡面數量";
+"chaichuBianhao" = "拆除設備編號";
+"shopInfoscreen_number" = "安裝數量";
+"shopInfo_screen_run_time" = "屏幕運行時間";
+"shopInfoscreen_start_at" = "開關機時間";
+"shopInfobusiness_licence" = "商業登記證";
+"shop_jiekuanStyle" = "結款方式";
+"shopInfofail_reason" = "失敗原因";
+"shopInfoshop_image" = "店鋪門臉照片";
+"shopInfopanorama_image" = "室內全景照片";
+"shopInfofail_reason" = "駁回原因";
+"shopInfoauthenticate" = "待審核";
+"shopInfoChangeApplyInfo" = "修改申請信息";
+"shopInfoSureChange" = "確定修改";
+"shopInfoAllShopApply" = "修改總部申請";
+"shopInfoAllshopInfo" = "總部信息";
+"shopInfoCountList" = "共%d家店鋪信息";
+"requestion_desc" = "問題描述";
+"genghuanOldNum" = "更換舊設備編號";
+"genghuanNewNum" = "更換新設備編號";
+"newShebeinum" = "新增屏幕編號";
+
+//005实名认证
+"not_authenticate_navi_title" = "實名認證";
+"not_authenticate_content_title" = "實名信息認證";
+"not_authenticate_perform" = "進行實名認證";
+"not_authenticate_notice" = "注: 認證需要您本人的身份證信息";
+"not_authenticate_power1" = "保障合法權益";
+"not_authenticate_power2" = "享受更多權限";
+"not_authenticate_power3" = "增加更多收入";
+
+"authenticate_name" = "姓名";
+"authenticate_gender" = "性別";
+"authenticate_idnum" = "證件號碼";
+"authenticate_idimage" = "證件照片";
+"authenticate_reject_reason" = "駁回原因";
+
+"authenticate_info_navi_title" = "填寫身份信息";
+"authenticate_info_name" = "姓名";
+"authenticate_info_name_placeholder" = "請輸入本人真實姓名";
+"authenticate_info_gender" = "性别";
+"authenticate_info_gender" = "身份證號碼";
+"authenticate_info_id_placeholder" = "請輸入本人身份證號碼";
+"authenticate_info_male" = "男";
+"authenticate_info_female" = "女";
+"authenticate_info_next" = "下一步";
+"authenticate_complete" = "已完善";
+"authenticate_not_complete" = "未完善";
+"reauthenticate_perform" = "重新認證";
+"authenticate_navi_title" = "實名認證";
+"padding_authenticate" = "實名認證待審核";
+"authenticate_idimage_navi_title" = "身份認證";
+"authenticate_idimage_done" = "完成";
+"authenticate_idimage_front_title" = "請添加身份證正面照";
+"authenticate_idimage_back_title" = "請添加身份證背面照";
+
+
+
+
+
+//006我的
+"profile_renzheng" = "實名認證";
+"profile_ziliao" = "個人資料";
+"profile_about" = "關於";
+"profile_setup" = "設置";
+"profile_register_title" = "用戶註冊";
+"profile_register_verification" = "發送驗證碼";
+"profile_resetPassword_title" = "重置密碼";
+"profile_loginOut" = "退出賬號";
+"profile_sure_loginOt" = "確定退出登錄";
+"profile_login_password" = "登錄密碼";
+"profile_setWithPassword" = "提現密碼";
+"profile_message_notification" = "消息通知";
+"profile_contact_we" = "聯繫我們";
+"profile_clearDisk" = "空間清理";
+"profile_install_member_judge" = "安裝人員認證";
+"profile_install_member_judge_message1" = "您的實名認證還未通過，暫時無法進行安裝認證";
+"profile_install_member_judge_message2" = "您的實名認證還未通過，無法進行安裝認證\n是否前去進行實名認證";
+
+
+
+
+"profile_contact_mobile" = "聯繫電話";
+"profile_editinfo_address" = "詳細地址";
+"profile_email" = "郵箱";
+
+"profile_school" = "畢業院校";
+"profile_education" = "學歷";
+"profile_general_info" = "基本信息";
+"profile_other_info" = "其他信息";
+"profile_editInfo" = "編輯資料";
+"profile_edit" = "待補充";
+"profile_mobile" = "電話";
+
+//007修改聯繫方式頁面
+"changeContactMobileTilte" = "修改聯繫方式";
+"enterOriginPassword" = "請輸入原始密碼";
+
+//008聯繫地址
+"contactAddressTitle" = "聯繫地址";
+"contactAddressCellTitle" = "所在地區";
+"contactAddressDetailAddressPlaceholder" = "請輸入詳細地址:街道、門牌號等";
+//009学历
+"select_education_title" = "請選擇您的學歷";
+"education1" = "小學";
+"education2" = "初中";
+"education3" = "高中";
+"education4" = "專科";
+"education5" = "本科";
+"education6" = "碩士";
+"education7" = "博士";
+"education8" = "博士後";
+"enterNUll" = "請輸入數據";
+"enterEmailPlaceholder" = "請輸入您的個人郵箱";
+"enterSchoolPlaceholder" = "請輸入您最高學歷學校名稱";
+
+
+//0010店铺申请
+"applyShopStatus0" = "申請待審核";
+"applyShopStatus1" = "申請未通過";
+"applyShopStatus2" = "待安裝";
+"applyShopStatus3" = "安裝待審核";
+"applyShopStatus4" = "安裝未通過";
+"applyShopStatus5" = "已安裝";
+"applyShopStatus6" = "關店";
+//0011消息頁面
+"system_message" = "系統消息";
+"public_message" = "公告";
+"name_in_message_page" = "公告";
+
+//0012签到頁面
+"sign_title" = "簽到";
+"group_footprint" = "團隊足跡";
+"footprint" = "足跡";
+"date_year" = "年";
+"date_month" = "月";
+"date_day" = "日";
+"ReverseGeocodeLocationError" = "逆向地理編碼失敗,請重試";
+"FailureToGetUserLocation" = "獲取當前位置失敗,請重試";
+"date_hour" = "小時";
+"date_minute" = "分鐘";
+"date_second" = "秒";
+"not_join_group_yet" = "尚未加入任何團隊";
+"have_sign_totally" = "共簽到";
+"have_not_sign" = "未簽到";
+"people" = "人";
+"can_not_access_others" = "無權查看其他人簽到記錄";
+"mine_in_sign_page" = "我的";
+"access_all" = "查看全部";
+"times" = "次";
+"sign_new" = "最新簽到";
+"sign_interval_should_not_less_than" = "簽到間隔不能少於";
+"getting_location_try_again_later"="正在獲取當前位置,請稍後重試";
+"sign_overtime" = "簽到超時";
+"have_sign_today"="今天已簽到";
+"have_not_sign_today"="今天尚未簽到";
+"location_change_little"="地點微調";
+"chooes_shop"="選擇店鋪";
+"chooes_shop_please"="請選擇店鋪";
+"visit_shop_again" = "回訪店鋪";
+"everyone_working" = "所有人都在工作啦";
+"no_one_sign" = "還沒有人簽到";
+"personal_sign" = "個人簽到";
+"no_sign_data_this_month"="本月沒有簽到數據";
+"good_comment"="好評";
+"regular_comment"="中評";
+"bad_comment"="差評";
+"not_comment"="未評價";
+"sign_detail"="簽到詳情";
+"shop_face_picture_and_others" = "店鋪門臉照及其他所需照片";
+"sign_people" = "簽到人員";
+"visit_shop" = "拜訪店鋪";
+"shop_area" = "店鋪面積";
+"mirror_count" = "鏡面數量";
+"minimum_consumption" = "最低消費";
+"shop_contact_people" = "店鋪聯繫人";
+"shop_contact_peopleOfInstallHistory" = "業務員";
+"maintain_content"="維護內容";
+"contact_number"="聯繫電話";
+"empty"="無";
+"lease"="租賃";
+"self_support"="自營";
+"chain"="連鎖";
+"unknown"="未知";
+"shop_type"="店鋪類型";
+"this_are_screen_or_not" = "有無屏幕";
+"tips" = "備註";
+"none_current" = "暫無";
+"maintain_comment_from_shop" = "店家對本次維護服務的評價";
+"all_sign"="全部簽到";
+"type_in_keyword_please" = "請輸入關鍵字";
+"can_not_find_shop"="找不到該店鋪\n或超出規定允許的範圍";
+
+//0013银行卡
+"bankCardManage"="銀行卡管理";
+"noBankCardTips"="您還未綁定銀行卡,無法提現,請點擊\n右上角圖標綁定銀行卡";
+"DebitCard"="儲蓄卡";
+"companyAccount"="公司賬戶";
+"askForUnband"="確定解除綁定";
+"bandBankCardTitle"="綁定銀行卡";
+"bankYourselfBankcardMakeSureSafe"="為了資金安全,只能綁定當前身份信息名下的銀行卡";
+"resendTitle"="秒后重發";
+"authorCode"="驗證碼";
+
+"sendCodeTitle"="獲取驗證碼";
+"typeinCorrectMobile"="請輸入正確的手機號";
+"typeinMobile"="請輸入手機號";
+"typeinCorrectBankNumber"="請輸入正確的銀行卡號";
+"typeinBankNumber"="請輸入開戶賬號";
+"typeinCorrectUsername"="請輸入2到6位漢字的用戶名";
+"typeinOpenAccountBank"="請輸入開戶行";
+"typeinAuthorCode"="請輸入六位數字的驗證碼";
+"typeinAuthorCodeCompany"="請輸入驗證碼";
+"accountNameIsEmpty"="賬戶名為空";
+"accountNumberIsEmpty"="賬戶號為空";
+"bankIsEmpty"="銀行為空";
+"openAccountPointIsEmpty"="開戶網點為空";
+"mobileIsEmpty"="手機號為空";
+"authorCodeIsEmpty"="驗證碼為空";
+"fullnameIsEmpty"="姓名為空";
+"bankNumberIsEmpty"="銀行卡號為空";
+"onlyCanBandYourselfBankcard"="只能綁定該身份證信息下的證件";
+"bankCardNumIncorrect"="銀行卡號不正確";
+"chooseBankTitle"="選擇銀行";
+"chooseBankcardTitle"="選擇銀行卡";
+"pleaseChooseBankTitle"="請選擇開戶行";
+"accountName"="賬戶名稱";
+"typeinAccountName"="請輸入完整的公司賬戶英文名稱";
+"accountNumber"="賬戶號";
+"openAccountBank"="開戶銀行";
+"openAccountSpecifyBank"="開戶網點";
+"pleaseTypeinOpenAccountSpecifyBank"="請輸入開戶網點名稱";
+"mobileNumber"="手機號";
+"pleaseTypeinBossMobile"="請輸入法人代表手機號";
+"band"="綁定";
+"tailBankCardNumber"="尾號";
+"useableBalanceLimit"="可提現額度";
+"applyGettingCashSuccess"="申請提現成功";
+"noticeAfterApplyGettingCash"="資金轉出至銀行卡需3-5個工作日到賬";
+"gettingCashFialure"="提現失敗 失敗原因:網絡問題";
+"pleaseBandBankcardFirst"="您還沒有綁定銀行卡無法提現\n點擊右上角\"+\"綁定銀行卡";
+
+
+//0014业绩提现
+"getCashNoticeTitle" = "提現須知";
+"getCashNoticeContent" = "第一次提現之前必須進行實名認證,綁定銀行卡,設置提現密碼,否則無法進行提現";
+"totally1" = "全部";
+"totally2" = "總計";
+"achievementAndGettingCash" = "業績提現";
+"gettingCashTitle" = "提現";
+"confirmGettingCash" = "確認提現";
+"gettingCashCount" = "提現金額";
+"gettingCashAccount" = "提現賬戶";
+"connectionShopCount" = "聯繫店鋪(家)";
+"achievement_jia"="家";
+"installScreenCount" = "安裝屏幕(臺)";
+"achievement_tai"="臺";
+"advertOrderCount" = "廣告業務(單)";
+"achievement_dan"="單";
+"balanceTitle" = "餘額";
+"moneyIndicater" = "$";
+"recentDynamic" = "最新動態";
+"bussinessDetail" = "業務詳情";
+"bussinessStatistic"="業務統計";
+"noDynamicYetRecently"="暫無業務動態";
+"getCashTitle" = "提現";
+"detailTitle" = "明細";
+"noMingxiData" = "暫無交易明細";
+"bankCardTitle" = "銀行卡";
+"authorNotBePassed" = "您的實名認證還未通過,暫時無法進行相關操作";
+"payPasscodeNotBeenSet"="您還未設置支付密碼,無法提現,是否前去設置支付密碼";
+"notCertificationedAndCanNotBandBank"="您還未進行實名認證,無法綁定銀行卡,是否前去進行實名認證";
+"notCertificationedAndCanNotGetCash"="您還未進行實名認證,無法提現,是否前去進行實名認證";
+"accountType"="賬戶類型";
+"personalAccountDescribe"="個人賬戶是指憑個人有效身份證以自然人名稱開立的賬戶";
+"companyAccountDecribe"="公司賬戶是指公司以單位名義在銀行開立的賬戶";
+"typePayPasscode"="請輸入提現密碼";
+"forgetPayPasscode"="忘記密碼";
+
+
+//15 店铺素材上传
+"Shop_media_manager" = "素材管理";
+"wheher_save_media_change" = "是否保存對素材的更改?";
+"allow_access_album" = "請在iPhone的\"設置-隱私\"選項中,允許訪問您的相冊";
+"allow_access_album1" = "請前往設置中心開啟相冊訪問權限";
+"shop_media_count_max" = "選中圖片數量已達30張";
+"switch_to_edit_or_delete" = "  點擊編輯可刪除或調整素材順序";
+"send_to_screen" = "投放到屏幕";
+"has_sent_to_screen" = "已投放";
+"not_to_be_sent" = "未投放";
+"add_media" = "添加素材";
+"no_image_at_media_lib" = "素材庫中尚無圖片素材";
+
+"press_to_upload_media" = "上傳素材";
+"uploading_media" = "正在上傳";
+"upload_success" = "上傳完成";
+"pendding_upload" = "等待上傳";
+"select_media" = "選擇照片";
+"reupload_after_failure" = "失敗,重新上傳";
+"some_media_upload_failure" = "部分上傳失敗";
+"media_water_mark_text" = "本內容由理髮店主自主上傳\n一切責任由理髮店獨立承擔";
+"cancel_and_give_unuploaded_media_up" = "部分素材尚未上傳完成\n是否放棄上傳?";
+"add_media_title" = "添加";
+    //账单明细
+"MingXiVCTitle" = "賬單明細";
+"MingXiVCIncome" = "收入$";
+"MingXiVCPay" = "支出$";
+"MingXiVCScreening" = "篩選";
+"MingXiVCAll" = "全部";
+//账单详情
+"MingXiSubBillTitle" = "賬單詳情";
+"MingXiSubBillDesc" = "賬單說明";
+"MingXiSubCounterAccount" = "對方賬戶";
+"MingXiSubWithdrawalsAccout" = "提現賬戶";
+"MingXiSubBillType" = "賬單分類";
+
+"MingXiSubBillType_1" = "提現申請";
+"MingXiSubBillType1" = "店鋪費用";
+"MingXiSubBillType2" = "安裝聯繫費";
+"MingXiSubBillType3" = "屏幕拆裝費";
+"MingXiSubBillType4" = "電費補貼";
+"MingXiSubBillType5" = "廣告訂單獎勵金";
+
+"MingXiSubBillCreateTime" = "創建時間";
+"MingXiSubBillQuestions" = "對此賬單有疑問請聯繫hk@16media.com";
+"MingXiSubBillTradeSuccess" = "交易成功";
+"MingXiSubBillWithDrawalSuccess" = "提現成功";
+"MingXisubBillSubmitSuccess" = "提交成功";
+
+
+
+//我的店铺
+"shopTitle" = "我的店鋪";
+"screenStatusNormal" = "屏幕正常";
+"screenStatusUnNormal" = "屏幕離線";
+"screenInfo" = "屏幕信息";
+"shopInfo" = "店鋪信息";
+"shopManagerInfo" = "管理業務員信息";
+"shop_manager_name" = "姓名";
+"shop_manager_mobile" = "電話";
+"shop_weihu_info_title" = "最新維護信息";
+"shop_weihu_member" = "維護人員";
+"shop_weihu_time" = "維護時間";
+"shop_weihu_content" = "維護內容";
+"shop_evaluation" = "評價";
+"shop_screenStatusInfo_title" = "屏幕狀態信息";
+"shop_admit_title" = "審核信息";
+"shop_admit_time" = "審核時間";
+"shop_admit_changeInsatall" = "修改安裝數量";
+"shop_info_income" = "店鋪收入";
+"shop_info_cost" = "店鋪費用";
+"shop_info_tariff_subsidy" = "電費補貼";
+"shop_info_name" = "店鋪名稱";
+"shop_info_address" = "店鋪位置";
+"shop_info_install_count" = "安裝數量";
+"shop_info_shop_contactName" = "店鋪聯繫人";
+"shop_info_shop_contact_mobile" = "聯繫方式";
+"shop_info_shopImage" = "店鋪圖片";
+"shop_info_shopCostValue" = "%@港幣/年";
+"shop_info_dianfei_butie" = "%@港幣/年(每塊屏幕)";
+"shop_info_feiyong_desc" = "费用说明";
+"shopHeader_shop_storeAdvertising" = "店鋪廣告";
+"shop_qianyueHeader" = "簽約信息";
+"shop_fendian_list" = "分店列表";
+"shop_user_info" = "個人信息";
+"shop_qianyue_faren" = "法人代表";
+"shop_qianyue_id" = "身份證號碼";
+"shop_qianyue_phone" = "手機號碼";
+"shop_company_info" = "公司信息";
+"shop_company_name" = "公司名稱";
+"shop_qianyue_dengji" = "商業登記證號碼";
+"shop_qianyue_dengji_image" = "商業登記證";
+"shop_qianyue_company_address" = "公司地址";
+"shop_qianyue_yingyezhizhao" = "營業執照";
+"shop_qianyue_other" = "其他";
+"shop_upload_image" = "上傳圖片";
+"shop_image_info" = "圖片信息";
+"shop_sub_fendian_info" = "分店信息";
+"shop_add_fendian" = "添加分店";
+
+"shop_fendian_status_no_apply" = "未申請";
+"shop_fendian_tobe_audited" = "安裝待申請";
+"shop_fendian_to_be_install" = "待安裝";
+"shop_fendian_noInstall" = "安裝未通過";
+"shop_fendian_installed" = "已安裝";
+"shop_sub_add_shopInfo" = "添加店鋪信息";
+"shop_sub_edit_shopInfo" = "編輯店鋪信息";
+"failure_reason" = "未通過原因";
+"shop_fendian_no" = "暫無分店信息";
+"shop_fendian_shopCount" = "共%@條店鋪信息，上滑展示更多";
+"installMemberInfo" = "安裝人信息";
+
+
+//0015电工认证
+"DG_installer_author_title" = "安裝人員認證";
+"DG_name_title" = "姓名";
+"DG_gender_title" = "性別";
+"DG_id_num_title" = "身份證號";
+"DG_register_num_title" = "註冊編號";
+"DG_register_num_placeholder" = "填寫電工牌註冊編號";
+"DG_project_level_title" = "工程級別";
+"DG_project_level_placeholder" = "填寫工程級別";
+"DG_allow_project_title" = "准許工程";
+"DG_allow_project_placeholder" = "填寫准許工程";
+"DG_qianfajigou_title"="簽發機構";
+"DG_qianfajigou_placeholder"="填寫簽發機構";
+"DG_start_date"="起始時間";
+"DG_start_date_notice"="填寫起始時間";
+"DG_end_date"="到期時間";
+"DG_end_date_notice"="填寫到期時間";
+"DG_select_date"="選擇時間";
+"DG_diangongzheng_title"="電工牌照片";
+"DG_upload_img_notice"="請上傳清晰的電工牌照正反面照片";
+"DG_not_upload_img_notice"="請上傳證件照片";
+"DG_male" = "男";
+"DG_female" = "女";
+"DG_reject_reason" = "駁回原因";
+"DG_upload_author_info" = "上傳認證信息";
+"DG_checking"="審核中";
+"DG_passed"="已認證";
+"DG_modify_author_info"="修改認證信息";
+"DG_confirm_submmit"="確認提交";
+"DG_confirm_discribe"="請確保信息的準確性,一經提交無法更改";
+"DG_info_has_submmited"="認證信息已提交";
+//0016店铺列表
+"SL_shop_list_title"="店鋪列表";
+"SL_zulin_title"="租賃店";
+"SL_ziying_title"="自營店";
+"SL_liansuo_title"="連鎖店";
+"SL_zongbu_title"="總部";
+"SL_no_shop_pending_install"="暫無待安裝店鋪";
+
+//设备安装
+
+//安装历史
+"installHistoryTitle1" = "新店安裝";
+"installHistoryTitle2" = "屏幕更換";
+"installHistoryTitle3" = "屏幕拆除";
+"installHistoryTitle4" = "新增屏幕";
+"installHistoryTitle" = "店鋪信息";
+
+
+
+//global
+"aduitPass" = "審核通過";
+"willAduit" = "待審核";
+"aduitFailure" = "審核駁回";
+"applyWillAduit" = "申請待審核";
+"applyFailure" = "申請未通過";
+"installAduit" = "安裝待審核";
+"willInstall" = "待安裝";
+"installFailure" = "安裝未通過";
+"shopClose" = "店鋪已關閉";
+

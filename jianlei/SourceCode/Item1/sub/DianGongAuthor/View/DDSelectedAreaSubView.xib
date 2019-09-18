@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DDSelectedAreaSubView" customModule="Project" customModuleProvider="target">
+            <connections>
+                <outlet property="cancleBtn" destination="pFu-RC-yRy" id="Qor-OF-t6S"/>
+                <outlet property="table" destination="WQG-h9-fPR" id="i5d-rw-2gT"/>
+                <outlet property="titleLabel" destination="fDL-N8-WcT" id="3z1-Di-fqG"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="339" height="615"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="丰台区" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fDL-N8-WcT">
+                    <rect key="frame" x="0.0" y="0.0" width="339" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="cUh-mu-0Wy"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="1" green="0.99607843137254903" blue="0.99607843137254903" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="chK-cC-SeI">
+                    <rect key="frame" x="15" y="40" width="309" height="1"/>
+                    <color key="backgroundColor" red="0.36862745098039218" green="0.36862745098039218" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="OVo-sw-inr"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pFu-RC-yRy">
+                    <rect key="frame" x="295" y="0.0" width="44" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="H3i-2Y-wyz"/>
+                        <constraint firstAttribute="width" constant="44" id="op0-pb-p2c"/>
+                    </constraints>
+                    <state key="normal" image="thefork"/>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="40" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="WQG-h9-fPR">
+                    <rect key="frame" x="0.0" y="41" width="324" height="574"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="TdN-yP-qom"/>
+                        <outlet property="delegate" destination="-1" id="crl-FI-drA"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="chK-cC-SeI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="01s-4E-a5F"/>
+                <constraint firstItem="chK-cC-SeI" firstAttribute="top" secondItem="fDL-N8-WcT" secondAttribute="bottom" id="Llq-5x-irC"/>
+                <constraint firstItem="fDL-N8-WcT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Rok-0t-5Mb"/>
+                <constraint firstAttribute="trailing" secondItem="pFu-RC-yRy" secondAttribute="trailing" id="SOX-MY-tMJ"/>
+                <constraint firstItem="WQG-h9-fPR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="SVP-uk-LTV"/>
+                <constraint firstItem="pFu-RC-yRy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="le6-Uy-b7h"/>
+                <constraint firstItem="WQG-h9-fPR" firstAttribute="top" secondItem="chK-cC-SeI" secondAttribute="bottom" id="nFz-KO-k6z"/>
+                <constraint firstAttribute="trailing" secondItem="fDL-N8-WcT" secondAttribute="trailing" id="pwn-fx-UJk"/>
+                <constraint firstAttribute="trailing" secondItem="chK-cC-SeI" secondAttribute="trailing" constant="15" id="qYc-dQ-Wri"/>
+                <constraint firstAttribute="trailing" secondItem="WQG-h9-fPR" secondAttribute="trailing" constant="15" id="xKt-FC-ysY"/>
+                <constraint firstAttribute="bottom" secondItem="WQG-h9-fPR" secondAttribute="bottom" id="y0T-Wd-V7a"/>
+                <constraint firstItem="fDL-N8-WcT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="yPB-G7-EVH"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="13.5" y="87.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="thefork" width="15" height="15"/>
+    </resources>
+</document>

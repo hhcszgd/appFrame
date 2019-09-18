@@ -1,0 +1,12 @@
+
+/* Class = "UITextField"; placeholder = "请输入手机号码"; ObjectID = "4WF-44-6JQ"; */
+"4WF-44-6JQ.placeholder" = "請輸入手機號";
+
+/* Class = "UIButton"; normalTitle = "註冊"; ObjectID = "cGp-6X-f2C"; */
+"cGp-6X-f2C.normalTitle" = "註冊";
+
+/* Class = "UITextField"; placeholder = "6-12位密码，支持数字字母大小写"; ObjectID = "krK-DN-q1f"; */
+"krK-DN-q1f.placeholder" = "設置6-12位賬號密碼";
+
+/* Class = "UITextField"; placeholder = "请输入验证码"; ObjectID = "tO8-uK-Tev"; */
+"tO8-uK-Tev.placeholder" = "請輸入短信驗證碼";

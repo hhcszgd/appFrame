@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UpPaySuccessView" customModule="Project" customModuleProvider="target">
+            <connections>
+                <outlet property="label" destination="gDR-W2-NO0" id="JMY-vM-1d9"/>
+                <outlet property="statusTitle" destination="95L-wf-t5a" id="vVy-5b-osS"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您的广告订单已购买成功" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="95L-wf-t5a">
+                    <rect key="frame" x="15" y="120" width="290" height="18"/>
+                    <fontDescription key="fontDescription" name=".PingFangSC-Regular" family=".PingFang SC" pointSize="18"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请尽快登录素材提交网站" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Pu-Gu-fe2">
+                    <rect key="frame" x="15" y="146" width="290" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="https://www.bjyltf.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nqt-2q-5ry">
+                    <rect key="frame" x="15" y="171" width="290" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="提交相关素材" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hjp-PM-hwK">
+                    <rect key="frame" x="15" y="196" width="290" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IWe-NQ-hQO">
+                    <rect key="frame" x="60" y="362" width="200" height="40"/>
+                    <color key="backgroundColor" red="0.92941176469999998" green="0.50588235290000005" blue="0.0078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="fky-xO-rU0"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="查看订单详情">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="checkOrderDetailAction:" destination="-1" eventType="touchUpInside" id="ZRu-IB-5gq"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gDR-W2-NO0">
+                    <rect key="frame" x="15" y="218" width="290" height="134"/>
+                    <string key="text">       由于在您付款期间，选择广告档期部分被他人抢先购买。您实付10000元，购买的实际广告总额价值为5000元。
+        我们会按照您购买的档期播出，对于您的损失我们将会按照增加档期的方式进行补播。
+      若您不同意我们的补播方案，或者有任何意见请联系客服：
+     400-073-6688</string>
+                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                    <color key="textColor" red="0.92941176469999998" green="0.50980392159999999" blue="0.0078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="successicon" translatesAutoresizingMaskIntoConstraints="NO" id="exp-aj-F3O">
+                    <rect key="frame" x="110" y="10" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="gTn-N7-iLf"/>
+                        <constraint firstAttribute="height" constant="100" id="h0b-6y-Zni"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="gDR-W2-NO0" firstAttribute="top" secondItem="hjp-PM-hwK" secondAttribute="bottom" constant="5" id="3a5-eA-tc5"/>
+                <constraint firstAttribute="trailing" secondItem="95L-wf-t5a" secondAttribute="trailing" constant="15" id="66r-U2-wFN"/>
+                <constraint firstAttribute="trailing" secondItem="Nqt-2q-5ry" secondAttribute="trailing" constant="15" id="74O-o9-DLi"/>
+                <constraint firstItem="Nqt-2q-5ry" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="7KO-UZ-Hmg"/>
+                <constraint firstItem="Nqt-2q-5ry" firstAttribute="top" secondItem="2Pu-Gu-fe2" secondAttribute="bottom" constant="8" id="BOP-tB-1Ra"/>
+                <constraint firstItem="IWe-NQ-hQO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="60" id="BqC-9V-UB5"/>
+                <constraint firstAttribute="trailing" secondItem="hjp-PM-hwK" secondAttribute="trailing" constant="15" id="FkX-W5-NTi"/>
+                <constraint firstAttribute="trailing" secondItem="IWe-NQ-hQO" secondAttribute="trailing" constant="60" id="IPd-Eh-vbV"/>
+                <constraint firstItem="exp-aj-F3O" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Khs-Vl-sRk"/>
+                <constraint firstItem="2Pu-Gu-fe2" firstAttribute="top" secondItem="95L-wf-t5a" secondAttribute="bottom" constant="8" symbolic="YES" id="PmP-mv-cNP"/>
+                <constraint firstItem="hjp-PM-hwK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="T4e-19-uOQ"/>
+                <constraint firstAttribute="trailing" secondItem="gDR-W2-NO0" secondAttribute="trailing" constant="15" id="Y5F-rg-osR"/>
+                <constraint firstItem="exp-aj-F3O" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="mMS-bc-O2b"/>
+                <constraint firstItem="2Pu-Gu-fe2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="nRP-Eg-M0L"/>
+                <constraint firstItem="95L-wf-t5a" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="oWZ-Rc-OWH"/>
+                <constraint firstItem="95L-wf-t5a" firstAttribute="top" secondItem="exp-aj-F3O" secondAttribute="bottom" constant="10" id="oXt-T2-8Qj"/>
+                <constraint firstAttribute="trailing" secondItem="2Pu-Gu-fe2" secondAttribute="trailing" constant="15" id="pKF-lP-67C"/>
+                <constraint firstItem="gDR-W2-NO0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="q3n-Ld-Xn4"/>
+                <constraint firstItem="IWe-NQ-hQO" firstAttribute="top" secondItem="gDR-W2-NO0" secondAttribute="bottom" constant="10" id="riE-eK-jGg"/>
+                <constraint firstItem="hjp-PM-hwK" firstAttribute="top" secondItem="Nqt-2q-5ry" secondAttribute="bottom" constant="8" id="tzu-3P-scy"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="successicon" width="110" height="110"/>
+    </resources>
+</document>

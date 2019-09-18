@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "新用戶註冊"; ObjectID = "8hU-sR-RWR"; */
+"8hU-sR-RWR.normalTitle" = "新用戶註冊";
+
+/* Class = "UIButton"; normalTitle = "忘記密碼"; ObjectID = "WJB-EK-IGU"; */
+"WJB-EK-IGU.normalTitle" = "忘記密碼";
+
+/* Class = "UITextField"; placeholder = "請輸入登錄賬號"; ObjectID = "Zh2-SH-3AA"; */
+"Zh2-SH-3AA.placeholder" = "請輸入登錄賬號";
+
+/* Class = "UIButton"; normalTitle = "登錄"; ObjectID = "d32-4w-aMK"; */
+"d32-4w-aMK.normalTitle" = "登錄";
+
+/* Class = "UITextField"; placeholder = "請輸入賬號密碼"; ObjectID = "fmd-rL-fqY"; */
+"fmd-rL-fqY.placeholder" = "請輸入賬號密碼";

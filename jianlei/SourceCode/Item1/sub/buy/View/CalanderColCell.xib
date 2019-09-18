@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CalanderColCell" customModule="Project" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a5z-Qg-4is" userLabel="normalView">
+                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NXH-Su-gil" userLabel="leftView">
+                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d25-pD-gfc" userLabel="rightView">
+                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TXZ-rb-8vr" userLabel="dayLabel">
+                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="TXZ-rb-8vr" secondAttribute="height" multiplier="1:1" id="42l-As-plM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="a5z-Qg-4is" secondAttribute="trailing" id="4ZI-OB-lJg"/>
+                <constraint firstItem="a5z-Qg-4is" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="5Kg-Jf-R5d"/>
+                <constraint firstAttribute="bottom" secondItem="TXZ-rb-8vr" secondAttribute="bottom" id="5aT-Yh-wRJ"/>
+                <constraint firstItem="a5z-Qg-4is" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="8Ob-sy-xsL"/>
+                <constraint firstItem="a5z-Qg-4is" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="B9G-Hl-ATQ"/>
+                <constraint firstItem="TXZ-rb-8vr" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="De5-LT-Y4S"/>
+                <constraint firstAttribute="bottom" secondItem="NXH-Su-gil" secondAttribute="bottom" id="DoM-cr-QOw"/>
+                <constraint firstItem="NXH-Su-gil" firstAttribute="trailing" secondItem="TXZ-rb-8vr" secondAttribute="trailing" id="FOM-Wx-XzL"/>
+                <constraint firstItem="a5z-Qg-4is" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="HeW-R5-dd9"/>
+                <constraint firstAttribute="bottom" secondItem="a5z-Qg-4is" secondAttribute="bottom" id="MKu-SM-OQz"/>
+                <constraint firstAttribute="bottom" secondItem="d25-pD-gfc" secondAttribute="bottom" id="Sgv-V0-9OR"/>
+                <constraint firstItem="d25-pD-gfc" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="YeK-8w-CI7"/>
+                <constraint firstItem="NXH-Su-gil" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ZF1-FC-UzP"/>
+                <constraint firstItem="d25-pD-gfc" firstAttribute="leading" secondItem="TXZ-rb-8vr" secondAttribute="leading" id="a2Q-TI-3qF"/>
+                <constraint firstAttribute="trailing" secondItem="d25-pD-gfc" secondAttribute="trailing" id="jXy-LY-WBl"/>
+                <constraint firstAttribute="trailing" secondItem="a5z-Qg-4is" secondAttribute="trailing" id="lD6-hg-XiM"/>
+                <constraint firstItem="TXZ-rb-8vr" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="r5c-Lb-s1F"/>
+                <constraint firstItem="NXH-Su-gil" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="yxL-vp-lOc"/>
+                <constraint firstAttribute="bottom" secondItem="a5z-Qg-4is" secondAttribute="bottom" id="zdd-GU-Hrc"/>
+            </constraints>
+            <connections>
+                <outlet property="dayLabel" destination="TXZ-rb-8vr" id="orA-As-9RM"/>
+                <outlet property="leftView" destination="NXH-Su-gil" id="wGz-Ex-GPu"/>
+                <outlet property="normalView" destination="a5z-Qg-4is" id="kly-1Z-POa"/>
+                <outlet property="rightView" destination="d25-pD-gfc" id="QG7-De-Esh"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>

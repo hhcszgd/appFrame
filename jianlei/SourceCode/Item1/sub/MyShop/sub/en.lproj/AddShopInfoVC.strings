@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "选择地区"; ObjectID = "2a4-b1-G97"; */
+"2a4-b1-G97.text" = "选择地区";
+
+/* Class = "UIButton"; normalTitle = "保存"; ObjectID = "CAy-9A-UwR"; */
+"CAy-9A-UwR.normalTitle" = "保存";
+
+/* Class = "UIButton"; normalTitle = "删除店铺信息"; ObjectID = "DUm-dh-FLy"; */
+"DUm-dh-FLy.normalTitle" = "删除店铺信息";
+
+/* Class = "UILabel"; text = "店铺名称"; ObjectID = "It6-W0-LeQ"; */
+"It6-W0-LeQ.text" = "店铺名称";
+
+/* Class = "UITextField"; placeholder = "填写店铺名称"; ObjectID = "bfu-fv-Llf"; */
+"bfu-fv-Llf.placeholder" = "填写店铺名称";
+
+/* Class = "UILabel"; text = "店铺地址"; ObjectID = "w24-FS-YWp"; */
+"w24-FS-YWp.text" = "店铺地址";
+
+/* Class = "UITextField"; placeholder = "填写详细地址"; ObjectID = "wlx-lh-Ckd"; */
+"wlx-lh-Ckd.placeholder" = "填写详细地址";
